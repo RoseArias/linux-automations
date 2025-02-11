@@ -7,7 +7,7 @@ echo "set et ts=2 ai sw=2 nu
 autocmd FileType yaml setlocal cursorcolumn" >> ~/.vimrc && source ~/.vimrc
 
 echo "alias anr='ansible-navigator run --pae false -m stdout'
-alias anrs='ansible-navigator run --syntax-check --pae false -m stdout'" >> ~/.bash_profile && source ~/.bash_profile
+alias anrs='ansible-navigator run --syntax-check --pae false -m stdout'" >> ~/.bashrc && source ~/.bashrc
 
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
 gnome-terminal --window --maximize
