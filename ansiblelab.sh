@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Example install for later
-#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/RoseArias/linux-automations/refs/heads/main/ansiblelab.sh)"
 
 echo "set et ts=2 ai sw=2 nu
 autocmd FileType yaml setlocal cursorcolumn" >> ~/.vimrc && source ~/.vimrc
